@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(246, 245, 243);
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+}
+.bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bir {
+  width: 100%;
+}
+
+.image1 {
+  background-image: url("./img/bg.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+.bir h1 {
+  color: white;
+  background-color: gray;
+  outline: 8px inset rgb(239, 98, 247);
+  outline-offset: 15px; /*alttaki border cizgisiyle outline cizgisinin arasini acmak icin kullanilir */
+  border: 10px solid gray;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 175px);
+  font-size: 3rem;
+}
+
+.iki {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.iki p {
+  padding-top: 20px;
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px 25px;
+}
+.iki h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: gray;
+}
+
+.image2 {
+  background-image: url("./img/bg1.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+.uc {
+  position: relative;
+}
+.image2_ic_resim1 img {
+  width: 300px;
+  position: absolute;
+  top: calc(50% - 57px);
+  left: calc(50% - 125px);
+}
+.image3 {
+  background-image: url("./img/bg2.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+.dört {
+  padding-top: 50px;
+  background-color: rgb(45, 45, 45);
+  color: aliceblue;
+  padding-bottom: 50px;
+}
+.dört h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dört p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 5px 20px 0 20px;
+}
+.bes {
+  width: 100%;
+  position: relative;
+}
+.bes h1 {
+  position: absolute;
+  color: white;
+  background-color: gray;
+  outline: 8px inset rgb(239, 98, 247);
+  outline-offset: 15px; /*alttaki border cizgisiyle outline cizgisinin arasini acmak icin kullanilir */
+  border: 10px solid gray;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  z-index: 10;
+  top: calc(50% - 50px);
+  left: calc(50% - 175px);
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.alti {
+  padding: 50px 35px;
+  background-color: rgb(236, 227, 216);
+}
+
+.alti h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.alti p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+.image4 {
+  background-image: url("./img/bg3.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.yedi {
+  width: 100%;
+  position: relative;
+}
+
+.yedi h1 {
+  position: absolute;
+  color: white;
+  background-color: gray;
+  outline: 8px inset rgb(239, 98, 247);
+  outline-offset: 15px; /*alttaki border cizgisiyle outline cizgisinin arasini acmak icin kullanilir */
+  border: 10px solid gray;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  z-index: 10;
+  top: calc(50% - 50px);
+  left: calc(50% - 175px);
+  font-size: 2rem;
+  font-weight: 100;
+  width: 300px;
+  text-align: center;
+}
+
+.sekiz {
+  background-color: rgb(30, 30, 30);
+  padding: 50px 20px;
+  color: white;
+}
+
+.sekiz h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sekiz p {
+  text-align: center;
+}
+.image5 {
+  background-image: url("./img/bg4.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+.dokuz {
+  width: 100%;
+  position: relative;
+}
+
+.dokuz h1 {
+  position: absolute;
+  color: white;
+  background-color: gray;
+  outline: 8px inset rgb(239, 98, 247);
+  outline-offset: 15px; /*alttaki border cizgisiyle outline cizgisinin arasini acmak icin kullanilir */
+  border: 10px solid gray;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  z-index: 10;
+  top: calc(50% - 60px);
+  left: calc(50% - 175px);
+  font-size: 2rem;
+  font-weight: 100;
+  width: 400px;
+  text-align: center;
+}
