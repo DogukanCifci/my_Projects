@@ -6,10 +6,6 @@ body {
   margin: 0;
 }
 
-.navbar {
-  border: 1px solid black;
-}
-
 nav {
   display: flex;
 }
@@ -54,16 +50,13 @@ nav {
 }
 
 .row2 {
-  background-color: red;
-  border: 1px solid black;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .row2 .col {
-  background-color: aqua;
-  width: 35%;
+  width: 85%;
   position: relative;
 }
 .google-amblem {
@@ -71,29 +64,42 @@ nav {
   text-align: center;
 }
 .google-amblem img {
-  width: 75%;
+  width: 272px;
   margin-bottom: 1.5rem;
-  border: 1px solid black;
-}
-.arama-icon {
-  position: absolute;
-  width: 6%;
-  top: 10.1rem;
-  left: 1rem;
 }
 
-.microphone {
-  position: absolute;
-  width: 5%;
+.input {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+}
 
-  top: 10.1rem;
-  right: 1rem;
+.input input {
+  padding: 0 60px;
+  border: 1px solid gray;
+}
+
+.search {
+  position: absolute;
+  z-index: 1;
+  color: black;
+  left: 15px;
+  top: 6px;
+}
+
+.mic {
+  position: absolute;
+  right: 25px;
+  top: 15px;
 }
 
 .input input {
   border-radius: 30px;
   margin-top: 0;
 }
+
 .search-button {
   margin-top: 1rem;
   text-align: center;
@@ -104,10 +110,14 @@ nav {
   gap: 0 20px;
 }
 .search-button a {
-  background-color: gray;
-  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: rgb(229, 225, 225);
+  padding: 0.7rem;
   border-radius: 3px;
-  width: 30%;
+
+  font-size: 1.2rem;
+  color: rgba(31, 30, 30, 0.8);
+  text-decoration: none;
 }
 
 .language {
@@ -115,4 +125,35 @@ nav {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.language p {
+  font-size: 1.2rem;
+}
+
+.row1 .col a:hover {
+  text-decoration: underline;
+}
+
+.row1 .col img:hover {
+  background-color: rgba(134, 139, 139, 0.5);
+  border-radius: 5px;
+}
+
+.row1 .col button:hover {
+  background-color: rgba(26, 70, 192, 0.8);
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.row2 .search-button a:hover {
+  border: 1px solid gray;
+}
+
+.input .search:hover {
+  cursor: pointer;
+}
+.input .mic:hover {
+  cursor: pointer;
 }
